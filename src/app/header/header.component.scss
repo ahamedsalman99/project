@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+background-image: linear-gradient(to right,#de6262,#ffb88c);  
+}
+.navbar-brand{
+    color: white!important;
+
+}
+.nav-link{
+    color: white!important;
+}
+.nav-link:hover{
+    color: rgb(255, 0, 212)!important;
+}
+@media (max-width:990px){
+    .nav-link{
+        text-align: center!important;
+    }
+}
